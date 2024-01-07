@@ -1,0 +1,20 @@
+{
+  "name": "Copy SYS Part2",
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "repository": "https://github.com/XredaX/test11111111",
+  "env": {
+    "ADMIN_ID": {
+      "description": "Add id of the admin",
+      "required": true,
+      "value": ""
+    }
+  }
+}
